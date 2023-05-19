@@ -1,0 +1,371 @@
+/* Header CSS */
+.company-logo {
+    width: 190px;
+    margin-left: -7px;
+  }
+  
+  .title {
+    font-size: 80px;
+    text-align: center;
+    margin-top: -140px;
+  }
+  
+  .tiktok {
+    width: 3%;
+    float: right;
+    margin-top: -140px;
+    margin-right: 5px;
+  }
+  
+  .instagram {
+    width: 3%;
+    float: right;
+    margin-top: -131px;
+    margin-right: 80px;
+  }
+  
+  .twitter {
+    width: 4%;
+    float: right;
+    margin-top: -140px;
+    margin-right: 150px;
+  }
+  
+  header {
+    background-image: linear-gradient(to right, rgb(228, 97, 184) 30%, rgb(247, 247, 81));
+    height: 190px;
+    margin-right: -8px;
+    margin-top: -10px;
+  }
+  
+  /* Main CSS */
+  .main-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+  .nav div {
+    margin: 5px;
+  }
+  
+  .nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap; 
+  }
+
+  
+
+/* Main CSS */
+.main-title{
+    text-align: center;
+    font-size: 75px;
+}
+
+.nav{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.nav a{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: pink;
+    overflow-x: hidden;
+}
+
+p{
+  font-family: 'Rajdhani', sans-serif;
+} 
+
+a{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+  background-color: pink;
+}
+
+ /* Responsive CSS */
+@media (max-width: 1000px) {
+  .company-logo {
+    width: 105%;
+    margin-left: -10px;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 90px;
+    margin-top: 0;
+  }
+
+  header{
+      margin-left: -20px;
+  }
+
+  .tiktok,
+  .instagram,
+  .twitter {
+      width: .1px;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .main-title {
+      text-align: center;
+      font-size: 50px;
+    }
+    
+  .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+    
+  .nav a {
+      text-decoration: none;
+  }
+}
+
+
+/* Homepage CSS */
+.textbox{
+    text-align: center;
+    border: solid black;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: linear-gradient(to right, rgb(247, 247, 81) 20%, rgb(228, 97, 184));
+    text-align: center; 
+}
+
+.popular-games{
+    font-size: 60px;
+    float: left;
+}
+
+.popular-games p{
+    margin: 50px;
+    margin-left: 60px;
+}
+
+.popular-games img{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    border: solid black;
+}
+
+.deals{
+    font-size: 60px;
+    float: right;
+}
+
+.deals p{
+    margin: 50px;
+    margin-right: 25px;
+}
+
+.deals img{
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin: 20px;
+    border: solid black;
+}
+
+/* About CSS */
+.textbox-about{
+    text-align: center;
+    border: solid black;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, rgb(247, 247, 81) 20%, rgb(228, 97, 184));
+    width: 600px;
+    display: inline-block;
+}
+
+.backstory{
+    margin-bottom: 132px;
+}
+
+.about-info{
+    margin-top: -80px;
+    margin-bottom: 70px;
+    padding: 15px;
+}
+
+/* Game Library CSS */
+.game-library{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.game-library img{
+    border: solid black;
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+/* Apply CSS */
+.apply-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.apply-button button{
+    background-image: linear-gradient(to right, rgb(247, 247, 81) 20%, rgb(228, 97, 184));
+    width: 130px;
+    height: 50px;
+}
+
+/* Developers */
+.developers{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.developers p{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 280px;
+    margin-right: 80px;
+}
+
+.developers-images img{
+    width: 400px;
+    height: 300px;
+    border: solid black;
+    margin-left: 365px;
+    margin-top: -50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease; 
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  width: 300px; 
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 260px;
+  margin-right: 300px;
+  transition: all 0.3s ease; 
+}
+
+.container p {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  margin-left: 90px;
+  box-sizing: border-box;
+  transition: all 0.3s ease; 
+}
+
+.container img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  transition: all 0.3s ease; 
+}
+
+@media (max-width: 1750px) {
+  .container {
+    justify-content: flex-start; 
+  }
+
+  .flexbox {
+    width: 100%; 
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container p {
+    margin-left: 0;
+  }
+
+  .container img {
+    width: 100%; 
+    height: auto; 
+  }
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 1050px) {
+    .textbox {
+      font-size: 20px;
+      margin: 10px; 
+    }
+
+    .textbox-about{
+        width: 90%;
+    }
+  
+    .popular-games p,
+    .deals p {
+      font-size: 100px;
+      text-align: center;
+    }
+  
+    .popular-games img,
+    .deals img {
+      width: 100%;
+      height: auto;
+    }
+
+    .deals img{
+      margin-right: -2.5px;
+    }
+
+    #cuphead{
+      margin-bottom: 40px;
+      margin-left: -2px;
+    }
+
+    .popular-games img{
+        margin: 0;
+    }
+
+    .popular-games,
+    .deals{
+      width: 100%;
+    }
+
+    .game-library img{
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+      align-items: center;
+    }
+}
